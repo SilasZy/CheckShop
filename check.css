@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Pacifico&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kalnia+Glaze:wght@100..700&family=Pacifico&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kalnia+Glaze:wght@100..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: repeating-linear-gradient(315deg, rgba(0,0,0,0.07),rgba(0,0,0,0.05),rgba(0,0,0,0.02),rgba(0,0,0,0.08),rgba(0,0,0,0.07),rgba(0,0,0,0.03),rgba(0,0,0,0.06),rgba(0,0,0,0.08),rgba(0,0,0,0.02),rgba(0,0,0,0.08),rgba(0,0,0,0.02),rgba(0,0,0,0.07),rgba(0,0,0,0.08),rgba(0,0,0,0.09),rgba(0,0,0,0.01) 3px),linear-gradient(360deg, rgb(218, 30, 196),rgb(241,240,254));
+    max-width: 100%;
+}
+
+header{
+    background-color: purple;
+   height: 10vh;
+
+}
+.container-nav{
+    
+    display: block;
+position: relative;
+
+}
+nav {
+    
+margin-top: -70px;
+display: flex;
+justify-content: end;
+
+}
+nav ul{
+    list-style-type: none;
+display: flex;
+font-family: "Pacifico", cursive;
+
+}
+nav li {
+padding: 10px;
+
+margin-top: -10%;
+
+}
+
+nav a{
+    text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+transition: 1s;
+font-size: 20px;
+
+}
+a:hover{
+    color: rgb(185, 140, 185);
+transform: matrix3d(1.3);
+
+}
+.man{
+    margin-top: -62px;
+}
+.button{
+   padding: 20px;
+}
+
+.check{
+    color: #fff;
+    text-align: center;
+   font-size: 30px;
+   font-family: "Playwrite CU", cursive;
+   border-bottom:solid 2px black;
+
+}
+
+.container{
+ display: inline-flex;
+padding: 10px;
+justify-content: center;
+margin-top: 10px;
+   
+}
+
+.card{
+background-color: purple;
+opacity: initial;
+display: grid;
+
+margin: 90px;
+
+
+}
+.card-body{
+    width: 300px;
+    border-radius: 150px 1px 50px; 
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    background-image: url(https://i5.walmartimages.com/asr/6951c7ff-73b7-42c2-bb2c-51e366a5b2e1_1.d5eed626065c749dca27eb7556ac1c91.jpeg);
+ 
+
+
+
+}
+.card-body1{
+    width: 300px;
+    border-radius: 150px 1px 50px; 
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    background-image: url(https://img.giglio.com/images/prodPage/377765.009_1.jpg);
+  
+
+
+
+}
+.card-body2{
+    width: 300px;
+    border-radius: 150px 1px 50px; 
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    background-image: url(https://cdn.laredoute.com/products/a/7/0/a702e5e2fc674c3e1deda0fb3804a0e5.jpg?width=400&dpr=1);
+
+  
+
+}
+.card-body3{
+    width: 300px;
+    border-radius: 150px 1px 50px; 
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    background-image: url(https://static.netshoes.com.br/produtos/camisa-polo-adidas-tiro-21-masculina/06/NQQ-7775-006/NQQ-7775-006_zoom5.jpg?ts=1617809583);
+
+
+}
+.card-body4{
+    width: 300px;
+    border-radius: 150px 1px 50px; 
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    background-image: url(https://static.clube.netshoes.com.br/produtos/camisa-polo-lacoste-original-fit-masculina/10/D66-0138-810/D66-0138-810_zoom4.jpg?ts=1624537006&ims=1088x);
+
+
+
+
+}
+.card-body5{
+    width: 300px;
+    border-radius: 150px 1px 50px; 
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    background-image: url(https://static.riachuelo.com.br/RCHLO/12989720003/portrait/62504e550680c071ea275e5f50396f1d1b1fb1fd.jpg);
+    
+
+
+
+}
+.botao-compra{
+    background-color:   red;
+  color: white;
+  cursor: pointer;
+  border-radius: 55px;
+  font-family: "Playfair Display", serif;
+ font-size: 20px;
+}
+.botao-compra:hover{
+    background-color: red;
+}
+
+.titulo-card{
+  padding: 5px;
+  color:whitesmoke;
+  
+}
+h4{
+    background-color: whitesmoke;
+    color:purple;
+    padding: 5px;
+    font-family: "Pacifico", cursive;
+}
+.estoque{
+     font-family: "Pacifico", cursive;
+    font-size: 15px;
+font-size: smaller;
+
+}
+.preco{
+    font-size: larger;
+  font-weight: 800;
+}
+.container-footer{
+   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding: 40px;
+ color:#fff;
+position: relative;
+
+ 
+}
+.icon{
+     
+position: absolute;
+left: 50px;
+bottom: 10PX;
+
+}
+
+      
+footer img{
+    position: absolute;
+    left: 50px;
+    bottom: 70px
+}
+.email{
+  position: absolute;
+left: 100px;
+top: 10px;
+}
+.phone{
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+.tipo{
+    font-size: 20px;
+    
+}
+
+.destacado{
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+  font-variant: small-caps;
+font-size: 30px;
+text-align: end;
+
+
+}
+/* parte de responsividade */
+
+@media (width <= 600px){
+    
+    .check{
+        color: black;
+     font-size: 10px;
+       margin-right: 250px;
+    }
+    .tipo{
+        font-size: 15px;
+    }
+    .destacado{
+        font-size: 20px;
+    }
+footer img{
+    left: 20px;
+    bottom: 60%;
+}
+.email{
+    left: 70px;
+    font-size: 15px;
+}
+.icon{
+    left: 20px;
+   
+}
+.phone{
+    left: 70px;
+    font-size: 15px;
+   top: 60px;
+}
+.man{
+   margin-top: -28px;
+}
+}
+@media (width <= 410px){
+    header{
+       min-width: 400px;
+    }
+    .container-footer{
+        min-width: 400px;
+    }
+    .tipo{
+        font-size: 10px;
+    }
+}
+@media (width <= 999px){
+    .card{
+       margin: 20px;
+    }
+}
+    @media (width <= 723px){
+        .card{
+           margin-left: 180px;
+        }
+        .check{
+            font-size: 30px;
+        }
+        nav a{
+            font-size: px;
+        }
+
+}
+@media (width <= 800px){
+.check{
+    font-size: 15px;
+}
+nav a{
+    font-size: 15px;
+}
+.man{
+    margin-top: -30px;
+}
+}
+@media (width <= 400px){
+.card{
+   margin: auto;
+   padding: 0;
+}
+}
+@media (width <= 1027px){
+.card{
+    margin: auto;
+    padding: 0;
+}
+}
+@media (width <= 667px){
+.card{
+    margin: auto;
+}
+}
+
