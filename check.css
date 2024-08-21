@@ -16,8 +16,16 @@ body{
 header{
     background-color: purple;
    height: 10vh;
+  
 
 }
+.human{
+    height: 50px;
+    transform: translateY(-125%);
+}
+
+ 
+
 .container-nav{
     
     display: block;
@@ -48,9 +56,9 @@ margin-top: -10%;
 nav a{
     text-decoration: none;
    color: #fff;
-   font-size: 18px;
+
 transition: 1s;
-font-size: 20px;
+font-size: 1rem;
 
 }
 a:hover{
@@ -258,22 +266,30 @@ text-align: end;
         font-size: 10px;
     }
 }
-@media (width <= 999px){
+@media (width <= 1200px){
     .card{
        margin: 20px;
     }
+    nav a{
+        font-size: 1rem;
+    }
+    .human{
+        height: 40px;
+    }
 }
-    @media (width <= 723px){
+    @media (width <= 800px){
         .card{
            margin-left: 180px;
         }
+
         .check{
-            font-size: 30px;
+            font-size: 20px;
             margin-right: 180px;
+            color: black;
         }
        
         nav a{
-            font-size: 13px;
+            font-size: 1rem;
         }
       
 
@@ -287,6 +303,9 @@ text-align: end;
 .card{
    margin: auto;
    padding: 0;
+}
+.human{
+    transform: translateY(-100%);
 }
 }
 @media (width <= 1027px){
